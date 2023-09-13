@@ -35,6 +35,7 @@ public class CalcCalculation extends javax.swing.JFrame {
         DrawPanel = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Calculus Web");
 
         EnterField.setText("Enter Your Equation");
 
