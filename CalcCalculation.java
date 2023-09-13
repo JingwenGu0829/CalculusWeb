@@ -26,10 +26,10 @@ public class CalcCalculation extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
+        TopPanel = new javax.swing.JPanel();
         EnterField = new javax.swing.JTextField();
         DerivativeButton = new javax.swing.JButton();
-        IntegralButton2 = new javax.swing.JButton();
+        IntegralButton = new javax.swing.JButton();
         ShowGraphButton = new javax.swing.JButton();
         ResultTextField = new javax.swing.JTextField();
         DrawPanel = new javax.swing.JPanel();
@@ -40,7 +40,7 @@ public class CalcCalculation extends javax.swing.JFrame {
 
         DerivativeButton.setText("Derivative");
 
-        IntegralButton2.setText("Integral");
+        IntegralButton.setText("Integral");
 
         ShowGraphButton.setText("Show Graph");
         ShowGraphButton.addActionListener(new java.awt.event.ActionListener() {
@@ -52,32 +52,32 @@ public class CalcCalculation extends javax.swing.JFrame {
         ResultTextField.setEditable(false);
         ResultTextField.setText("Result");
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout TopPanelLayout = new javax.swing.GroupLayout(TopPanel);
+        TopPanel.setLayout(TopPanelLayout);
+        TopPanelLayout.setHorizontalGroup(
+            TopPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TopPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(TopPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(ResultTextField)
                     .addComponent(EnterField)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGroup(TopPanelLayout.createSequentialGroup()
                         .addComponent(DerivativeButton, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(IntegralButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(IntegralButton, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(ShowGraphButton, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)))
                 .addContainerGap())
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        TopPanelLayout.setVerticalGroup(
+            TopPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(TopPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(EnterField, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(IntegralButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(TopPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(IntegralButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(TopPanelLayout.createSequentialGroup()
                         .addComponent(DerivativeButton, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(ShowGraphButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -103,7 +103,7 @@ public class CalcCalculation extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(TopPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(DrawPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -112,7 +112,7 @@ public class CalcCalculation extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(TopPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(DrawPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
@@ -164,9 +164,9 @@ public class CalcCalculation extends javax.swing.JFrame {
     private javax.swing.JButton DerivativeButton;
     private javax.swing.JPanel DrawPanel;
     private javax.swing.JTextField EnterField;
-    private javax.swing.JButton IntegralButton2;
+    private javax.swing.JButton IntegralButton;
     private javax.swing.JTextField ResultTextField;
     private javax.swing.JButton ShowGraphButton;
-    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel TopPanel;
     // End of variables declaration//GEN-END:variables
 }
