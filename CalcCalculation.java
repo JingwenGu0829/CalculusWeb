@@ -15,7 +15,7 @@ public class calccalculator extends JFrame {
     private JButton addBtn,removeBtn,derivativeBtn,integralBtn,plotBtn;
     private Plotpane pltPanel;
     private JFrame drawFrame;
-    private Vector<String[]> equations;
+    private Vector<String[]> equations=new Vector();
 
     public calccalculator() {
         setTitle("Calculus Web");
