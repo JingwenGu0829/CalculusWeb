@@ -1,7 +1,5 @@
 # CalculusWeb
 
-
-
 **Key features:**
 
 * Enter multiple functrions simultaneously
@@ -12,10 +10,8 @@
 
 * syntax check of the formula entered
 
-
-
 **Workflow demonstrated:**
 
-
-
 **Potential improvements:**
+
+11111
